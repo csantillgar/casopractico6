@@ -5,9 +5,9 @@
 ---
 
 ## 1. Integrantes del Grupo
-* **María Díaz - Heredero López** (ID: 152337)
-* **Cintia Santillán García** (ID: 154184)
-* **Suren Hashemi Alam**
+* **María Díaz - Heredero López** NP: 152337
+* **Cintia Santillán García** NP: 154184
+* **Suren Hashemi Alam** NP: 155168
 
 ---
 
