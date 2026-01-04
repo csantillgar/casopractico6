@@ -24,7 +24,7 @@ public class JobCompletionNotificationListener extends JobExecutionListenerSuppo
     @Override
     public void afterJob(JobExecution jobExecution) {
         if (jobExecution.getStatus() == BatchStatus.COMPLETED) {
-            log.info("!!! TRABAJO FINALIZADO! Verificando base de datos...");
+            log.info("Trabajo finalizado. Verificando base de datos...");
 
             jdbcTemplate.query("SELECT id, nombre, tipo, nivel FROM hechizo",
                     (rs, row) -> new Hechizo(
